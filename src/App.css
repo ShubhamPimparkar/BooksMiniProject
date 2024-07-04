@@ -1,4 +1,6 @@
+
 .App {
+  
   text-align: center;
 }
 
@@ -14,6 +16,7 @@
 }
 
 .App-header {
+  
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -28,11 +31,34 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-class{
+  width: 100%;
+  background-color: #353535;
+  color: aliceblue;
+  text-align: center;
+  /* position: fixed; */
+  position: fixed;
+  bottom: 0;
+  padding: 7px;
+
+}
+.imgSize{
+  width: 30%;
+  margin: 50px;
+}
+.myForm{
+  border: 2px solid rgb(114, 114, 114);
+  border-radius: 10px;
+  padding: 30px;
+  width: 30%;
+  background-color: rgb(234, 240, 240);
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.myTable{
+  width: 40%;
+  margin: 40px;
+}
+.about{
+  margin: 40px;
 }
